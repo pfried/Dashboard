@@ -164,7 +164,7 @@ module.exports = function (grunt) {
             dest: '.tmp/styles/main.css',
             src: [
               '<%= yeoman.app %>/bower_components/bootstrap/less/bootstrap.less',
-              '<%= yeoman.app %>/styles/{,*/}*.less'
+              '<%= yeoman.app %>/styles/main.less'
             ]
           }
         ]
